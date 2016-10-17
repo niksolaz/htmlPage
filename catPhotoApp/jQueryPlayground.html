@@ -26,8 +26,12 @@
 <!-- script jQuery-->
   <script>
     $(document).ready(function() {
-            $("h3").addClass("animated bounce").html("<em>jQuery Playground</em>");
-            $("#target1").prop("disabled", true);
+      $("h3").addClass("animated bounce").html("<em>jQuery Playground</em>").css("background-color","silver");
+      $("#target1").css("color", "red");
+      $("#target1").prop("disabled", true);
+      $("#target4").remove();
+      $("#target2").appendTo("#right-well");
+      $("#target5").clone().appendTo("#left-well");
   });
 </script>
 
