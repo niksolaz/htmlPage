@@ -1,0 +1,22 @@
+body{
+  background-color:teal;
+}
+.navbar-brand{
+  font-size:20px;
+}
+#navbar{
+  font-size:20px;
+  background-color:white;
+}
+.aboutme{
+  margin-top:50px;
+}
+.myImage{
+ 
+  border-radius:50%;
+  border:1px solid gray;
+}
+.jContact{
+  border:1px solid black;
+  margin-top:20px;
+}
