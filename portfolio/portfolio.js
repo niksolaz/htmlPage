@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("h1").addClass("text-center").css("color","teal");
-  $(window).stellar({
+  $("#container").stellar({
     scrollProperty:"scroll",
     positionProperty:"position",
     varticalScrolling:true,
@@ -11,6 +11,14 @@ $(document).ready(function(){
     parallaxElements: true,
     hideDistantElements: true,
     hideElement: function($elem) { $elem.hide(); },
-    showElement: function($elem) { $elem.show(); }
+    showElement: function($elem) { $elem.show(); },
+
+    $.stellar.positionProperty.position = {
+      setTop: function($element, newTop, originalTop) {
+        $element.css('top', newTop);
+      }
+    },
+
+
   });
 });
