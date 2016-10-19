@@ -1,5 +1,7 @@
-body{
-  background-color:teal;
+body 
+{
+    height: 100%;
+    background-color:silver;
 }
 .menu
 {
@@ -10,31 +12,82 @@ body{
     background-color: rgba(0,0,0,1.0);
     z-index: 100;
 }
-
-.navbar-brand{
-  font-size:20px;
-}
-#navbar{
-  font-size:20px;
+.logo
+{
+  width:50%;
+  margin-top:10px;
   background-color:white;
+  border-radius:30%
 }
 .slide
 {
-    background-image:url('http://wellwill.neocities.org/html.jpg');
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+    text-align: center;
+}
+#slide1,
+#slide2,
+#slide3
+{
+    background-color:#ffffff;
+    box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
+    z-index: 10;
+}
+#slide1
+{
+    height: 100%;
+    background-image:url('http://blog.hdwallsource.com/wp-content/uploads/2016/02/solid-color-wallpaper-21955-22508-hd-wallpapers-1024x640.jpg');
     background-color:#fff;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.aboutme{
-  margin-top:50px;
-}
-.myImage{
  
-  border-radius:50%;
-  border:1px solid gray;
+#slide2
+{
+    background-image:url('');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.jContact{
-  border:1px solid black;
-  margin-top:20px;
+ 
+#slide3
+{
+    background-image:url('https://s-media-cache-ak0.pinimg.com/236x/c9/49/6e/c9496ec763be135a55b5013c01566f3a.jpg');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.red1
+{
+  height:300px;
+  width:300px;
+  background-color:teal;
+  background-image:url("https://blog.codepen.io/wp-content/uploads/2012/07/Demo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:50%;
+}
+.red2
+{
+  height:300px;
+  width:300px;
+  background-color:teal;
+  background-image:url("https://pbs.twimg.com/profile_images/644153475266408448/wu-K-1BH.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:50%;
+}
+.red3
+{
+  height:300px;
+  width:300px;
+  background-color:teal;
+  background-image:url("https://blog.addthiscdn.com/wp-content/uploads/2015/11/wix-icon1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:50%;
 }
