@@ -12,6 +12,7 @@
 <!-- -------------- -->
 <!-- Navbar -->
 <!-- -------------- -->
+<header class="menu">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -32,9 +33,11 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+  </header>
 <!-- -------------- -->
 <!-- Jumbotron Page About -->
 <!-- -------------- -->
+<section class="slide" id="about">
     <div class="container">
       <div id="about" class="jumbotron jAbout">
         <div class="row">
@@ -49,9 +52,11 @@
            </div>
         </div>
       </div>
+      </section>
 <!-- -------------- -->
 <!-- Jumbotron Page Portfolio -->
 <!-- -------------- -->
+<section class="slide" id="portfolio">
       <div id="portfolio" class="jumbotron jPortfolio">
         <h1>Portfolio</h1>
         
@@ -139,13 +144,16 @@
             </div>
           </div>
         </div>
+  </section>
 <!-- -------------- -->
 <!-- Jumbotron Page Contact -->
 <!-- -------------- -->
+  <section class="slide" id="contact">
       <div id="contact" class="jumbotron jContact">
         <h1>Contact</h1>
         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       </div>
+  </section>
 <!-- -------------- -->
 <!-- Footer -->
 <!-- -------------- -->
@@ -153,17 +161,18 @@
         <p>Written and Coded by <a href="#">Nicola Solazzo .</a></p>
       </footer>
 
-    </div> 
+    </div> <!-- /container -->
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/waypoints.min.js"></script>
-    <script src="js/skrollr.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
     <script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">
     var s = skrollr.init();
     </script>
+    <script src="js/_main.js"></script>
+
 </body>
 </html>
