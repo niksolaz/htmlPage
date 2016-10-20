@@ -12,12 +12,33 @@ body
     background-color: rgba(0,0,0,1.0);
     z-index: 100;
 }
+h2
+{
+  color:white;
+}
+.btn-twitter
+{
+  background-color:white;
+}
+.btn-facebook
+{
+  color:white;
+  background-color:#1E90FF;
+}
+.btn-linkedin
+{
+  color:white;
+  background-color:#1E90FF;
+}
+.btn-github
+{
+  color:black;
+  background-color:white;
+}
 .logo
 {
-  width:50%;
   margin-top:10px;
-  background-color:white;
-  border-radius:30%
+  color:#1E90FF;
 }
 .slide
 {
@@ -55,7 +76,7 @@ body
  
 #slide3
 {
-    background-image:url('https://s-media-cache-ak0.pinimg.com/236x/c9/49/6e/c9496ec763be135a55b5013c01566f3a.jpg');
+    background-image:url('http://blog.hdwallsource.com/wp-content/uploads/2016/02/solid-color-wallpaper-21955-22508-hd-wallpapers-1024x640.jpg');
     background-color:#fff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,5 +110,9 @@ body
   background-image:url("https://blog.addthiscdn.com/wp-content/uploads/2015/11/wix-icon1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius:50%;
+}
+#target
+{
   border-radius:50%;
 }
